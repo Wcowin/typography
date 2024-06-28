@@ -1,6 +1,6 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "Wcowin",
   /** your name */
   author: "Typography",
   /** website description */
@@ -8,14 +8,14 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** your deployed domain */
   website: "https://astro-theme-typography.vercel.app/",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/Wcowin",
     },
     {
       name: "rss",
@@ -23,11 +23,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
     {
       name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
-    {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://twitter.com/wcowin_",
     }
   ],
   /** your header info */
@@ -55,7 +51,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your category name mapping, which the `path` will be shown in the url */
   category_map: [
-    { name: "胡适", path: "hu-shi" },
+    { name: "Wcowin", path: "hu-shi" },
   ],
   /** your comment provider */
   comments: {
